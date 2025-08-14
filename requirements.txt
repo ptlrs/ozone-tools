@@ -1,0 +1,17 @@
+# Python dependencies for Ozone Audit Log Analyzer
+
+# For remote SSH connections (required for accessing remote OM servers)
+paramiko>=3.0.0
+
+# Standard library modules used (no installation needed):
+# - re (regex patterns)
+# - glob (file pattern matching)
+# - os (operating system interface)
+# - sys (system-specific parameters)
+# - json (JSON encoder/decoder)
+# - argparse (command-line parsing)
+# - typing (type hints)
+# - datetime (date and time handling)
+# - concurrent.futures (parallel execution)
+# - logging (logging facility)
+# - tempfile (temporary file creation) 

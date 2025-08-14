@@ -1,0 +1,26 @@
+{
+  "time_window_minutes": 1,
+  "results_directory": "./analysis_results",
+  "ssh_user": "root",
+  "ssh_key_path": "/root/.ssh/id_rsa.pub",
+  "oms": [
+    {
+      "name": "OM1",
+      "log_directory": "/root/audit_log_analysis/ozonelogs/om1",
+      "file_pattern": "om-audit-2025-06-*.log",
+      "server": "ve1129.example.com"
+    },
+    {
+      "name": "OM2",
+      "log_directory": "/root/audit_log_analysis/ozonelogs/om2",
+      "file_pattern": "om-audit-2025-06-*.log",
+      "server": "ve0309.example.com"
+    },
+    {
+      "name": "OM3",
+      "log_directory": "/root/audit_log_analysis/ozonelogs/om3",
+      "file_pattern": "om-audit-2025-06-*.log",
+      "server": "ve0310.example.com"
+    }
+  ]
+}
